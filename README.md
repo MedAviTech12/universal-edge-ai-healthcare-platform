@@ -1,10 +1,25 @@
 # Universal Plug-and-Play Edge AI Platform for Multimodal Healthcare Diagnostics
+![Project Status](https://img.shields.io/badge/Status-Completed-success)
+![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-blue)
+![Domain](https://img.shields.io/badge/Domain-Healthcare%20AI-green)
 
 This project presents a Universal Plug-and-Play Edge AI Platform for healthcare diagnostics. The platform enables the deployment and execution of multiple artificial intelligence models on a low-cost Raspberry Pi device, eliminating dependence on cloud-based infrastructure.
 
 The system supports multimodal healthcare data, including facial images, thermal images, chest X-rays, respiratory audio recordings, and dermatological images. By performing inference locally on the edge device, the platform enhances data privacy, reduces latency, and improves accessibility in resource-constrained environments.
 
 Designed with a modular architecture and dynamic model registry, the platform allows healthcare AI models to be integrated, updated, and deployed without modifying the core system. This enables scalable and flexible deployment across a wide range of healthcare applications.
+
+## Table of Contents
+
+- Key Features
+- Project Overview
+- Objectives
+- System Architecture
+- Healthcare AI Models Integrated
+- Hardware and Software Stack
+- Results and Performance
+- Future Scope
+- Documentation
 
 
 ## Key Features
@@ -51,12 +66,18 @@ The proposed system follows a modular edge-computing architecture designed to su
 ### Architecture Workflow
 
 User Input
-→ Data Preprocessing
-→ Model Registry
-→ Inference Engine
-→ AI Model Execution
-→ Prediction Output
-→ User Dashboard
+      ↓
+Data Preprocessing
+      ↓
+Model Registry
+      ↓
+Inference Engine
+      ↓
+AI Model Execution
+      ↓
+Prediction Output
+      ↓
+User Dashboard
 
 ### Core Components
 
@@ -85,6 +106,10 @@ The platform integrates multiple healthcare AI models, including:
 * Skin Disease Classification
 * Tuberculosis Detection from Chest X-Ray Images
 * Tuberculosis Detection from Respiratory Audio
+
+## Data Flow Diagram
+<img width="977" height="482" alt="image" src="https://github.com/user-attachments/assets/96444dd7-1852-480a-a32e-55024cfe056f" />
+
 
 #### 6. Edge Hardware Layer
 
@@ -136,9 +161,15 @@ The platform integrates multiple healthcare AI models within a unified edge-comp
 * NumPy
 * Flask Framework
 * Raspberry Pi OS
+
+## Hardware Integration 
+<img width="959" height="1034" alt="image" src="https://github.com/user-attachments/assets/55297eab-3386-4072-8d61-7594999de5b9" />
+
 ## Results and Performance
 
 The proposed Edge AI platform was successfully deployed and evaluated on a Raspberry Pi 4 device. Experimental testing demonstrated the feasibility of running multiple healthcare AI models locally while maintaining acceptable inference speed and resource efficiency.
+## Web Dashboard
+<img width="1541" height="1202" alt="image" src="https://github.com/user-attachments/assets/88f260a7-e201-49df-aca3-2aea14c8e8ed" />
 
 ### Key Achievements
 
@@ -198,3 +229,19 @@ The repository contains the following project resources:
 - System Architecture Diagrams
 - Experimental Results and Performance Analysis
 - Deployment and Implementation Details
+
+## Author
+
+**Abhishek Kumar Jha**
+
+Biomedical Engineering Graduate
+
+Areas of Interest:
+- Medical Artificial Intelligence
+- Neuroengineering
+- Medical Imaging
+- Edge AI
+- Intelligent Healthcare Systems
+
+LinkedIn: https://www.linkedin.com/in/abhishek-kumar-jha-027a13263/
+GitHub: https://github.com/MedAviTech12

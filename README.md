@@ -16,3 +16,17 @@ Designed with a modular architecture and dynamic model registry, the platform al
 - Dynamic Model Registry
 - Real-Time AI Predictions
 - Scalable and Modular Architecture
+
+## Project Overview
+## Objectives
+## System Architecture
+## Healthcare AI Models Integrated
+## Hardware and Software Stack
+## Results and Performance
+## Future Scope
+## Documentation
+
+- Final Project Report
+- Project Presentation
+- System Architecture Diagrams
+- Experimental Results
